@@ -31,7 +31,7 @@ Welcome to the Rock Paper Scissors Game! This is a simple web-based game where y
 
 ## Installation ⚙️
 
-1. Clone the repository: `git clone https://github.com/231AG/rock-paper-scissors.git`
+1. Clone the repository: `git clone https://github.com/231AG/rock-paper-scissors-game.git`
 2. Open the `index.html` file in your preferred web browser.
 
 ## Contributing 🤝
@@ -47,3 +47,4 @@ This project is licensed under the [MIT License](LICENSE).
 Enjoy playing the Rock Paper Scissors Game! If you have any questions or feedback, please don't hesitate to reach out.
 
 Author: Foday Malike Kabah (231AG)
+Email: fodakabah1997@gmail.com
