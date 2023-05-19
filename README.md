@@ -5,7 +5,7 @@ Welcome to the Rock Paper Scissors Game! This is a simple web-based game where y
 
 ## How to Play 🎮
 
-1. Visit the [live demo](https://example.com) of the game.
+1. Visit the [live demo]([https://example.com](https://231ag.github.io/rock-paper-scissors-game/)) of the game.
 2. Click on your preferred choice (Rock, Paper, or Scissors) to make your move.
 3. The computer will randomly choose its move.
 4. The game will determine the winner based on the traditional Rock Paper Scissors rules:
