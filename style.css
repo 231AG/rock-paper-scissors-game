@@ -1,0 +1,174 @@
+/* Reset default styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Game container */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Choices container */
+.choices {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Choice */
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.choice:hover {
+  background-color: #e0e0e0;
+}
+
+.choice span {
+  font-size: 6rem;
+}
+
+/* Result container */
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.scoreboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+#player-score {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.result {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#result-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Reset button */
+.reset-button {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.reset-button:hover {
+  background-color: #e0e0e0;
+}
+
+.reset-button span {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+/* Footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 480px) {
+  /* Adjust layout for smaller screens */
+  .choices {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+  }
+
+  .choice {
+    width: 120px;
+    height: 120px;
+    margin: 0.5rem;
+  }
+
+  .scoreboard {
+    width: 200px;
+  }
+
+  #player-score {
+    font-size: 1rem;
+  }
+
+  .resultContainer {
+    margin-bottom: 1rem;
+  }
+
+  .reset-button {
+    width: 40px;
+    height: 40px;
+    margin-top: 1rem;
+  }
+
+  .reset-button span {
+    font-size: 1.5rem;
+  }
+
+  /* Adjust header font-size for smaller screens */
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Adjust min-height of game-container to fit screen */
+  .game-container {
+    min-height: calc(100vh - 3rem); /* Subtract header and footer height */
+  }
+}
