@@ -41,7 +41,7 @@ const showResult = (score, playerChoice, computerChoice) => {
     resultDiv.textContent = 'Draw 😞'
   }
 
-  handsDiv.innerText = `👦${playerChoice} vs 🤖${computerChoice}`
+  handsDiv.innerText = `👦${playerChoice} vs 🤖 ${computerChoice}`
   playerScoreDiv.textContent = `Your Score: ${totalScore.playerScore}`
 }
 
